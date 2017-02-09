@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="signup_t">100dp</dimen>
+    <dimen name="signup_e">300dp</dimen>
+
+    <dimen name="login_t"> 50dp</dimen>
+
+    <dimen name="textsize1">18sp</dimen>
+    <dimen name="btn_roundness">7dp</dimen>
+    <dimen name="btn_textsize">21sp</dimen>
+    <dimen name="btn_width">120dp</dimen>
+
+
+    <dimen name="textsize2">18sp</dimen>
+    <dimen name="textsize3">16sp</dimen>
+
+</resources>

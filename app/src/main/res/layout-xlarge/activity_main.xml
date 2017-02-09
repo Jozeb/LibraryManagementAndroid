@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark2"
+    tools:context="com.example.jazibhassan.thelibrary.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.jazibhassan.thelibrary.MainActivity">
+
+
+
+        <Button
+            android:id="@+id/option_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_selector"
+            android:text="Search Book"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/option_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_selector"
+            android:text="Request Book"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/option_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_selector"
+            android:text="History"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/option_issue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_selector"
+            android:text="Issued Books"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/option_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button2_selector"
+            android:text="Profile"
+            android:textColor="@color/colorText" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/option_noti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:drawableTint="@color/colorAccent"
+        android:gravity="center"
+        android:backgroundTint="@color/colorAccent"
+
+        android:padding="5dp"
+        android:src="@android:drawable/stat_notify_chat"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/option_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/button3_selector"
+        android:text="Login"
+        android:textColor="@color/colorText" />
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="LIBRARY"
+        android:textColor="@color/colorText"
+        android:textSize="50sp" />
+</RelativeLayout>
+
+
+    <!--
+     <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_dialog_email" />
+
+    <include layout="@layout/content_main" />
+
+            -->
+
+
+    <!--
+
+     <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        -->
